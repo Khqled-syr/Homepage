@@ -1,12 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>project!</title>
-
-    <link href="./styles/index.css" rel="stylesheet" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Welcome to my website</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400"
+      rel="stylesheet"
+    />
+    <link href="styles/index.css" rel="stylesheet" />
   </head>
-  <body></body>
+
+  <body>
+    <div class="container">
+      <div class="placeholder">
+        <div class="parallax-window" data-parallax="scroll">
+          <div class="tm-header">
+            <div class="row tm-header-inner">
+              <div class="col-md-6 col-12">
+                <img src="img/hyf.jpg" alt="Logo" class="tm-site-logo" />
+                <div class="tm-site-text-box">
+                  <h1 class="tm-site-title">Khaled's restaurant</h1>
+                </div>
+              </div>
+              <nav class="col-md-6 col-12 tm-nav">
+                <ul class="tm-nav-ul">
+                  <li class="tm-nav-li">
+                    <a href="index.html" class="tm-nav-link active">Home</a>
+                  </li>
+                  <li class="tm-nav-li">
+                    <a
+                      href="https://github.com/levaii"
+                      class="tm-nav-link active"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <main>
+        <header class="row tm-welcome-section">
+          <h2 class="col-12 text-center tm-section-title">
+            Welcome to my restaurant.
+          </h2>
+          <p class="col-12 text-center">
+            If you are hungry, then you are in the right place!
+          </p>
+        </header>
+        <div class="tm-paging-links">
+          <a class="tm-paging-link">MENU</a>
+        </div>
+        <div class="row tm-gallery">
+          <div id="tm-gallery-page-pizza" class="tm-gallery-page">
+            <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+              <figure>
+                <img
+                  src="img/01.jpg"
+                  alt="Image"
+                  class="img-fluid tm-gallery-img"
+                />
+                <figcaption>
+                  <h4 class="tm-gallery-title">Shawrma</h4>
+                </figcaption>
+              </figure>
+            </article>
+            <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+              <figure>
+                <img
+                  src="img/02.jpg"
+                  alt="Image"
+                  class="img-fluid tm-gallery-img"
+                />
+                <figcaption>
+                  <h4 class="tm-gallery-title">Falafel</h4>
+                </figcaption>
+              </figure>
+            </article>
+            <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+              <figure>
+                <img
+                  src="img/03.jpg"
+                  alt="Image"
+                  class="img-fluid tm-gallery-img"
+                />
+                <figcaption>
+                  <h4 class="tm-gallery-title">Kubbah</h4>
+                </figcaption>
+              </figure>
+            </article>
+            <article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
+              <figure>
+                <img
+                  src="img/04.jpg"
+                  alt="Image"
+                  class="img-fluid tm-gallery-img"
+                />
+                <figcaption>
+                  <h4 class="tm-gallery-title">Salad</h4>
+                </figcaption>
+              </figure>
+            </article>
+          </div>
+        </div>
+      </main>
+      <div class="tm-section tm-container-inner">
+        <div class="row">
+          <div class="col-md-6">
+            <figure class="tm-description-figure">
+              <img src="img/05.jpg" alt="Image" class="img-fluid" />
+            </figure>
+          </div>
+          <div class="col-md-6">
+            <div class="tm-description-box">
+              <h4 class="tm-gallery-title">Burger</h4>
+              <a
+                href="https://www.burgerking.be/nl/"
+                class="tm-btn tm-btn-default tm-right"
+                >Order now</a
+              >
+            </div>
+          </div>
+        </div>
+        <footer class="tm-footer text-center">
+          <p>Copyright HYF 2021. All Rights Reserved.</p>
+        </footer>
+      </div>
+    </div>
+  </body>
 </html>

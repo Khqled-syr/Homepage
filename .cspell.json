@@ -1,6 +1,6 @@
 {
   "language": "en",
-  "words": [],
+  "words": ["Khaled's", "Kubbah", "Mervat", "Shawrma"],
   "ignorePaths": [
     "node_modules/**",
     "package.json",
